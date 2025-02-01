@@ -1,0 +1,245 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.2em; /* Aumentar tamaño base */
+}
+
+.header-container {
+    text-align: center;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px; /* Contenedor más ancho */
+}
+
+.header-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.header-subtext {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.header-description {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #666;
+}
+
+.features-container {
+    max-width: 900px; /* Aumentado */
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid black; /* Márgenes negros más marcados */
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.features-list {
+    margin: 20px auto;
+    padding: 0;
+    list-style-type: disc;
+    text-align: left;
+    display: inline-block;
+    color: #555;
+    font-size: 1.3em; /* Más grande */
+}
+
+.features-list li {
+    margin-bottom: 15px;
+}
+
+.features-text {
+    font-size: 1.2em;
+    color: #666;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.download-title {
+    font-size: 1.5em;
+    margin: 30px 0 15px;
+    color: #333;
+    text-align: center;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.android-icon {
+    width: 24px; /* Reducido */
+    height: 24px;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+}
+
+.download-link:hover {
+    background-color: #218838;
+}
+
+.help-text {
+    font-size: 1.1em;
+    color: #888;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.warning-container {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.warning-text {
+    font-size: 1.3em;
+    color: #d9534f;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.warning-icon {
+    font-size: 1.5em;
+    color: #d9534f;
+}
+
+.step-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid black; /* Márgenes negros más marcados */
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.step-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.step-icon {
+    font-size: 1.5em;
+    color: #d9534f;
+}
+
+.step-subtext {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.step-tool-icon {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.step-list {
+    text-align: left;
+    margin: 25px auto;
+    padding: 0 100px;
+    list-style-type: disc;
+    color: #555;
+    font-size: 1.3em;
+}
+
+.step-list li {
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.inner-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid black; /* Márgenes negros más marcados */
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.method-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.method-description {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.method-steps {
+    text-align: left;
+    margin: 20px auto;
+    padding: 0 30px;
+    list-style-type: disc;
+    color: #555;
+    font-size: 1.3em;
+}
+
+.method-steps li {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.step-image {
+    max-width: 60%; /* Reducida */
+    border: 2px solid black; /* Márgenes negros */
+    border-radius: 12px;
+}
