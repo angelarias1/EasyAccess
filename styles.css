@@ -243,3 +243,13 @@ body {
     border: 2px solid black; /* Márgenes negros */
     border-radius: 12px;
 }
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header-logo {
+    width: 120px; /* Tamaño ajustado */
+    height: auto;
+}
